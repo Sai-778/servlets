@@ -59,7 +59,7 @@ public class ControllerServlet extends HttpServlet {
 
         EmployeeService employeeService = EmployeeServiceFactory.getEmployeeService();
         String requestURI = request.getRequestURI();
-        //System.out.println(requestURI);
+
         if(requestURI.endsWith("add.do")){
 
 
